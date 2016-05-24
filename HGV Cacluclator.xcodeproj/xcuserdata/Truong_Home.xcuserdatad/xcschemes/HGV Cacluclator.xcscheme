@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DAFFD9591CF3E6840039DF10"
+               BuildableName = "HGV Cacluclator.app"
+               BlueprintName = "HGV Cacluclator"
+               ReferencedContainer = "container:HGV Cacluclator.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DAFFD96D1CF3E6840039DF10"
+               BuildableName = "HGV CacluclatorTests.xctest"
+               BlueprintName = "HGV CacluclatorTests"
+               ReferencedContainer = "container:HGV Cacluclator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DAFFD9781CF3E6840039DF10"
+               BuildableName = "HGV CacluclatorUITests.xctest"
+               BlueprintName = "HGV CacluclatorUITests"
+               ReferencedContainer = "container:HGV Cacluclator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DAFFD9591CF3E6840039DF10"
+            BuildableName = "HGV Cacluclator.app"
+            BlueprintName = "HGV Cacluclator"
+            ReferencedContainer = "container:HGV Cacluclator.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DAFFD9591CF3E6840039DF10"
+            BuildableName = "HGV Cacluclator.app"
+            BlueprintName = "HGV Cacluclator"
+            ReferencedContainer = "container:HGV Cacluclator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DAFFD9591CF3E6840039DF10"
+            BuildableName = "HGV Cacluclator.app"
+            BlueprintName = "HGV Cacluclator"
+            ReferencedContainer = "container:HGV Cacluclator.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
