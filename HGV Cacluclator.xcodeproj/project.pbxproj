@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA481A931CF758EB00E71BFA /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481A921CF758EB00E71BFA /* KDCircularProgress.swift */; };
 		DAFFD95E1CF3E6840039DF10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFD95D1CF3E6840039DF10 /* AppDelegate.swift */; };
 		DAFFD9601CF3E6840039DF10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFD95F1CF3E6840039DF10 /* ViewController.swift */; };
 		DAFFD9631CF3E6840039DF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFFD9611CF3E6840039DF10 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA481A921CF758EB00E71BFA /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		DAFFD95A1CF3E6840039DF10 /* HGV Cacluclator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HGV Cacluclator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFFD95D1CF3E6840039DF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFFD95F1CF3E6840039DF10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				DAFFD95D1CF3E6840039DF10 /* AppDelegate.swift */,
 				DAFFD95F1CF3E6840039DF10 /* ViewController.swift */,
+				DA481A921CF758EB00E71BFA /* KDCircularProgress.swift */,
 				DAFFD9611CF3E6840039DF10 /* Main.storyboard */,
 				DAFFD9641CF3E6840039DF10 /* Assets.xcassets */,
 				DAFFD9661CF3E6840039DF10 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA481A931CF758EB00E71BFA /* KDCircularProgress.swift in Sources */,
 				DAFFD9601CF3E6840039DF10 /* ViewController.swift in Sources */,
 				DAFFD95E1CF3E6840039DF10 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				DAFFD9841CF3E6840039DF10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAFFD9851CF3E6840039DF10 /* Build configuration list for PBXNativeTarget "HGV CacluclatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				DAFFD9871CF3E6840039DF10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAFFD9881CF3E6840039DF10 /* Build configuration list for PBXNativeTarget "HGV CacluclatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				DAFFD98A1CF3E6840039DF10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
