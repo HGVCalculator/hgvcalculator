@@ -71,7 +71,93 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-50" y="243"/>
+            <point key="canvasLocation" x="-150" y="-1701"/>
+        </scene>
+        <!--SetUsetCalcVC-->
+        <scene sceneID="Oa4-o6-Iqw">
+            <objects>
+                <viewController id="mhn-GC-XS1" userLabel="SetUsetCalcVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EX1-Fg-K2R"/>
+                        <viewControllerLayoutGuide type="bottom" id="xne-av-WVa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UWs-Lj-i7C">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blue_Fade" translatesAutoresizingMaskIntoConstraints="NO" id="qsW-uv-b1O">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="AUZ-as-CtQ"/>
+                                    <constraint firstAttribute="width" constant="600" id="OmV-Zm-wyK"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58X-zU-el5">
+                                <rect key="frame" x="0.0" y="300" width="600" height="50"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.65098039220000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="16"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Menu Icon" translatesAutoresizingMaskIntoConstraints="NO" id="iPJ-iJ-Zlu">
+                                <rect key="frame" x="20" y="20" width="24" height="24"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Have" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NW6-OF-QrM">
+                                <rect key="frame" x="0.0" y="400" width="600" height="40"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6F-yF-vOg">
+                                <rect key="frame" x="20" y="176" width="145" height="30"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="of SET / USET Remaining" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0b-1L-scC">
+                                <rect key="frame" x="0.0" y="490" width="600" height="40"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="XX Hours and XX Minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGs-nf-ssC">
+                                <rect key="frame" x="0.0" y="440" width="600" height="50"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="24"/>
+                                <color key="textColor" red="0.29019607843137257" green="0.60392156862745094" blue="0.015686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Times (ie: 4.26) " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Egg-kw-LqD">
+                                <rect key="frame" x="178" y="176" width="305" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="SET / USET Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCM-06-OqJ">
+                                <rect key="frame" x="61" y="15" width="539" height="33"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iPJ-iJ-Zlu" firstAttribute="leading" secondItem="UWs-Lj-i7C" secondAttribute="leadingMargin" id="0on-Wg-f0t"/>
+                            <constraint firstItem="iPJ-iJ-Zlu" firstAttribute="top" secondItem="EX1-Fg-K2R" secondAttribute="bottom" id="CwI-Ky-fwN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qsW-uv-b1O" secondAttribute="trailing" constant="-20" id="DUG-h8-Ix2"/>
+                            <constraint firstItem="qsW-uv-b1O" firstAttribute="top" secondItem="UWs-Lj-i7C" secondAttribute="topMargin" id="Gfe-4v-pvl"/>
+                            <constraint firstItem="xne-av-WVa" firstAttribute="top" secondItem="qsW-uv-b1O" secondAttribute="bottom" id="Gke-AF-uoz"/>
+                            <constraint firstItem="qsW-uv-b1O" firstAttribute="centerX" secondItem="UWs-Lj-i7C" secondAttribute="centerX" id="Lud-vy-ptz"/>
+                            <constraint firstItem="qCM-06-OqJ" firstAttribute="top" secondItem="EX1-Fg-K2R" secondAttribute="bottom" id="eeh-QN-ear"/>
+                            <constraint firstItem="qsW-uv-b1O" firstAttribute="leading" secondItem="UWs-Lj-i7C" secondAttribute="leadingMargin" constant="-20" id="jnz-WC-zBI"/>
+                            <constraint firstItem="qsW-uv-b1O" firstAttribute="centerY" secondItem="UWs-Lj-i7C" secondAttribute="centerY" id="lJs-I7-ItP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qCM-06-OqJ" secondAttribute="trailing" constant="-20" id="n4a-Xl-voD"/>
+                            <constraint firstItem="qCM-06-OqJ" firstAttribute="leading" secondItem="iPJ-iJ-Zlu" secondAttribute="trailing" constant="8" id="y4l-YS-UDo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dol-dZ-oeK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="207" y="-948"/>
         </scene>
         <!--LoginVC-->
         <scene sceneID="2vg-bh-niL">
@@ -155,10 +241,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zDj-XK-Nzh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="703" y="255"/>
+            <point key="canvasLocation" x="647" y="-1701"/>
         </scene>
     </scenes>
     <resources>
         <image name="Blue_Fade" width="213" height="378"/>
+        <image name="Menu Icon" width="1524" height="1422"/>
     </resources>
 </document>
