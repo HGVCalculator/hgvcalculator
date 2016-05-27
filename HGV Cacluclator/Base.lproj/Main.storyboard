@@ -234,6 +234,100 @@
             </objects>
             <point key="canvasLocation" x="-2245" y="-3377"/>
         </scene>
+        <!--DailyEntriesVC-->
+        <scene sceneID="QyZ-Cr-jej">
+            <objects>
+                <viewController id="LDz-Jq-K58" userLabel="DailyEntriesVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bmT-vo-d7z"/>
+                        <viewControllerLayoutGuide type="bottom" id="dG8-eI-m14"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BRh-zx-kqf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blue_Fade" translatesAutoresizingMaskIntoConstraints="NO" id="Snt-FL-6s1" userLabel="BG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="LJQ-NQ-j5U"/>
+                                    <constraint firstAttribute="height" constant="600" id="s2I-d4-dPf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qI3-NS-pbK">
+                                <rect key="frame" x="0.0" y="550" width="600" height="50"/>
+                                <color key="backgroundColor" red="0.34901960780000002" green="0.65098039220000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="16"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Daily Entries" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tca-uP-3mb" userLabel="DailyEntriesLbl">
+                                <rect key="frame" x="60" y="10" width="481" height="33"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Menu Icon" translatesAutoresizingMaskIntoConstraints="NO" id="mW7-xQ-BED" userLabel="MenuBtn">
+                                <rect key="frame" x="20" y="15" width="24" height="24"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="usc-uV-0Fy" userLabel="CalendarNavView" customClass="CVCalendarMenuView" customModule="CVCalendar">
+                                <rect key="frame" x="0.0" y="58" width="600" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hYJ-uL-xsB" userLabel="CalendarView" customClass="CVCalendarView" customModule="CVCalendar">
+                                <rect key="frame" x="0.0" y="116" width="600" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calls Taken" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOj-YN-ldv" userLabel="DailyGoalLbl">
+                                <rect key="frame" x="20" y="408" width="145" height="30"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HGV Transfers" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXn-Tm-WLz" userLabel="MonthlyGoalLbl">
+                                <rect key="frame" x="20" y="446" width="145" height="30"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EHI Transfers" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1S-Ud-g2d" userLabel="YearlyGoalFieldLbl">
+                                <rect key="frame" x="20" y="484" width="145" height="30"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount (ie: 25)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NlZ-lL-8nW" userLabel="MonthlyGoalField">
+                                <rect key="frame" x="178" y="446" width="305" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount (ie: 4)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jEF-jS-RYr" userLabel="YearlyGoalField">
+                                <rect key="frame" x="178" y="484" width="305" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount (ie: 102)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LJs-Ay-DzQ" userLabel="DailyTextField">
+                                <rect key="frame" x="178" y="408" width="305" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Snt-FL-6s1" firstAttribute="centerY" secondItem="BRh-zx-kqf" secondAttribute="centerY" id="2cX-Fr-fYR"/>
+                            <constraint firstItem="Snt-FL-6s1" firstAttribute="leading" secondItem="BRh-zx-kqf" secondAttribute="leadingMargin" constant="-20" id="3nK-OG-8Bh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Snt-FL-6s1" secondAttribute="trailing" constant="-20" id="5Gl-xw-7Mt"/>
+                            <constraint firstItem="Tca-uP-3mb" firstAttribute="leading" secondItem="mW7-xQ-BED" secondAttribute="trailing" constant="8" id="A8N-Tb-rTd"/>
+                            <constraint firstItem="Snt-FL-6s1" firstAttribute="centerX" secondItem="BRh-zx-kqf" secondAttribute="centerX" id="Gh6-1u-em9"/>
+                            <constraint firstItem="Snt-FL-6s1" firstAttribute="top" secondItem="BRh-zx-kqf" secondAttribute="topMargin" id="QLx-nn-z5z"/>
+                            <constraint firstItem="dG8-eI-m14" firstAttribute="top" secondItem="Snt-FL-6s1" secondAttribute="bottom" id="cLD-K6-0uZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UY4-hR-xxC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1611" y="-3421"/>
+        </scene>
         <!--GoalsVC-->
         <scene sceneID="Wc7-eb-soG">
             <objects>

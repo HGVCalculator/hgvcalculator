@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE5FD910763F4DB741E142F /* Pods_HGV_CacluclatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBBF987FF9C7591891AC521 /* Pods_HGV_CacluclatorUITests.framework */; };
+		4272092244083A02ADA16B7C /* Pods_HGV_Cacluclator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB066E7469F724B6B13372B /* Pods_HGV_Cacluclator.framework */; };
 		DA481A931CF758EB00E71BFA /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA481A921CF758EB00E71BFA /* KDCircularProgress.swift */; };
 		DAFFD95E1CF3E6840039DF10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFD95D1CF3E6840039DF10 /* AppDelegate.swift */; };
 		DAFFD9601CF3E6840039DF10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFD95F1CF3E6840039DF10 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		DAFFD9681CF3E6840039DF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFFD9661CF3E6840039DF10 /* LaunchScreen.storyboard */; };
 		DAFFD9731CF3E6840039DF10 /* HGV_CacluclatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFD9721CF3E6840039DF10 /* HGV_CacluclatorTests.swift */; };
 		DAFFD97E1CF3E6840039DF10 /* HGV_CacluclatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFD97D1CF3E6840039DF10 /* HGV_CacluclatorUITests.swift */; };
+		E05134C7D474491F52559BE8 /* Pods_HGV_CacluclatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9A23DF7124DB9304C4E125 /* Pods_HGV_CacluclatorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EBBF987FF9C7591891AC521 /* Pods_HGV_CacluclatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGV_CacluclatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B056088E1B7234DA81746F1 /* Pods-HGV CacluclatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGV CacluclatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGV CacluclatorUITests/Pods-HGV CacluclatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EC880F39E21E1034715527A /* Pods-HGV Cacluclator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGV Cacluclator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGV Cacluclator/Pods-HGV Cacluclator.debug.xcconfig"; sourceTree = "<group>"; };
+		83CD06390E1FD38E2A83DBBB /* Pods-HGV Cacluclator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGV Cacluclator.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGV Cacluclator/Pods-HGV Cacluclator.release.xcconfig"; sourceTree = "<group>"; };
+		8761828BC557F0CC1E9868EC /* Pods-HGV CacluclatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGV CacluclatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGV CacluclatorTests/Pods-HGV CacluclatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B9A23DF7124DB9304C4E125 /* Pods_HGV_CacluclatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGV_CacluclatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DB066E7469F724B6B13372B /* Pods_HGV_Cacluclator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGV_Cacluclator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA481A921CF758EB00E71BFA /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		DAFFD95A1CF3E6840039DF10 /* HGV Cacluclator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HGV Cacluclator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFFD95D1CF3E6840039DF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		DAFFD9791CF3E6840039DF10 /* HGV CacluclatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HGV CacluclatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFFD97D1CF3E6840039DF10 /* HGV_CacluclatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGV_CacluclatorUITests.swift; sourceTree = "<group>"; };
 		DAFFD97F1CF3E6840039DF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF14A06D9B7317B967E9552 /* Pods-HGV CacluclatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGV CacluclatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGV CacluclatorTests/Pods-HGV CacluclatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8C125B808F04DEE82B1BED3 /* Pods-HGV CacluclatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGV CacluclatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGV CacluclatorUITests/Pods-HGV CacluclatorUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4272092244083A02ADA16B7C /* Pods_HGV_Cacluclator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05134C7D474491F52559BE8 /* Pods_HGV_CacluclatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE5FD910763F4DB741E142F /* Pods_HGV_CacluclatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6931323519FAC602569BC989 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EC880F39E21E1034715527A /* Pods-HGV Cacluclator.debug.xcconfig */,
+				83CD06390E1FD38E2A83DBBB /* Pods-HGV Cacluclator.release.xcconfig */,
+				8761828BC557F0CC1E9868EC /* Pods-HGV CacluclatorTests.debug.xcconfig */,
+				EBF14A06D9B7317B967E9552 /* Pods-HGV CacluclatorTests.release.xcconfig */,
+				5B056088E1B7234DA81746F1 /* Pods-HGV CacluclatorUITests.debug.xcconfig */,
+				F8C125B808F04DEE82B1BED3 /* Pods-HGV CacluclatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3CC6B637E2C0E3E87A0F8A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DB066E7469F724B6B13372B /* Pods_HGV_Cacluclator.framework */,
+				9B9A23DF7124DB9304C4E125 /* Pods_HGV_CacluclatorTests.framework */,
+				0EBBF987FF9C7591891AC521 /* Pods_HGV_CacluclatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DAFFD9511CF3E6840039DF10 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				DAFFD9711CF3E6840039DF10 /* HGV CacluclatorTests */,
 				DAFFD97C1CF3E6840039DF10 /* HGV CacluclatorUITests */,
 				DAFFD95B1CF3E6840039DF10 /* Products */,
+				6931323519FAC602569BC989 /* Pods */,
+				B3CC6B637E2C0E3E87A0F8A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAFFD9821CF3E6840039DF10 /* Build configuration list for PBXNativeTarget "HGV Cacluclator" */;
 			buildPhases = (
+				9E41AF48B9AA5AD543027BF5 /* 📦 Check Pods Manifest.lock */,
 				DAFFD9561CF3E6840039DF10 /* Sources */,
 				DAFFD9571CF3E6840039DF10 /* Frameworks */,
 				DAFFD9581CF3E6840039DF10 /* Resources */,
+				275901AA1BC7FB7C470111E7 /* 📦 Embed Pods Frameworks */,
+				B9A6B7BBE93AC0305A8846D6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAFFD9851CF3E6840039DF10 /* Build configuration list for PBXNativeTarget "HGV CacluclatorTests" */;
 			buildPhases = (
+				7E9053EBE021F4C6082B8FC3 /* 📦 Check Pods Manifest.lock */,
 				DAFFD96A1CF3E6840039DF10 /* Sources */,
 				DAFFD96B1CF3E6840039DF10 /* Frameworks */,
 				DAFFD96C1CF3E6840039DF10 /* Resources */,
+				B3D210FCB10D37F5F1F30FF5 /* 📦 Embed Pods Frameworks */,
+				A3ABCF3266F3512D438FE476 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAFFD9881CF3E6840039DF10 /* Build configuration list for PBXNativeTarget "HGV CacluclatorUITests" */;
 			buildPhases = (
+				923682E733805094807B41D6 /* 📦 Check Pods Manifest.lock */,
 				DAFFD9751CF3E6840039DF10 /* Sources */,
 				DAFFD9761CF3E6840039DF10 /* Frameworks */,
 				DAFFD9771CF3E6840039DF10 /* Resources */,
+				B1F81EEA73C429B34B513AE5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		275901AA1BC7FB7C470111E7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGV Cacluclator/Pods-HGV Cacluclator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E9053EBE021F4C6082B8FC3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		923682E733805094807B41D6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E41AF48B9AA5AD543027BF5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3ABCF3266F3512D438FE476 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGV CacluclatorTests/Pods-HGV CacluclatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F81EEA73C429B34B513AE5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGV CacluclatorUITests/Pods-HGV CacluclatorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D210FCB10D37F5F1F30FF5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGV CacluclatorTests/Pods-HGV CacluclatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9A6B7BBE93AC0305A8846D6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGV Cacluclator/Pods-HGV Cacluclator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DAFFD9561CF3E6840039DF10 /* Sources */ = {
@@ -403,6 +574,7 @@
 		};
 		DAFFD9831CF3E6840039DF10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC880F39E21E1034715527A /* Pods-HGV Cacluclator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HGV Cacluclator/Info.plist";
@@ -414,6 +586,7 @@
 		};
 		DAFFD9841CF3E6840039DF10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CD06390E1FD38E2A83DBBB /* Pods-HGV Cacluclator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "HGV Cacluclator/Info.plist";
@@ -425,6 +598,7 @@
 		};
 		DAFFD9861CF3E6840039DF10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8761828BC557F0CC1E9868EC /* Pods-HGV CacluclatorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "HGV CacluclatorTests/Info.plist";
@@ -437,6 +611,7 @@
 		};
 		DAFFD9871CF3E6840039DF10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF14A06D9B7317B967E9552 /* Pods-HGV CacluclatorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "HGV CacluclatorTests/Info.plist";
@@ -449,6 +624,7 @@
 		};
 		DAFFD9891CF3E6840039DF10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B056088E1B7234DA81746F1 /* Pods-HGV CacluclatorUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "HGV CacluclatorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +636,7 @@
 		};
 		DAFFD98A1CF3E6840039DF10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C125B808F04DEE82B1BED3 /* Pods-HGV CacluclatorUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "HGV CacluclatorUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

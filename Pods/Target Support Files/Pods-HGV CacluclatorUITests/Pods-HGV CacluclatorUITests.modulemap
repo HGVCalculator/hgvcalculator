@@ -1,0 +1,6 @@
+framework module Pods_HGV_CacluclatorUITests {
+  umbrella header "Pods-HGV CacluclatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
